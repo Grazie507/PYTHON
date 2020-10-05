@@ -1,0 +1,6 @@
+# 1. Faça um programa que dado o valor da temperatura em graus FARENHEIT, calcular e escrever o valor da temperatura em graus CELSIUS. Fórmula: C = (F-32) * 5/9
+
+F  =  float ( input ( 'Digite uma temperatura em Fahrenheit?' ))
+C  =  redondo ( flutuador (( M  -  32 ) * ( 5 / 9 )), 1 )
+
+imprimir ( 'Essa temperatura em Celsius é' , C , '° C' )
