@@ -1,0 +1,13 @@
+# 3. Faça um programa para solicitar o nome e as duas notas de um aluno. Calcular sua média e informá-la. Se ela for inferior a 7, escrever "Reprovado”; caso contrário escrever "Aprovado".
+
+nome  =  input ( 'Qual é o nome do aluno?' )
+n1  =  float ( input ( 'Qual foi a primeira nota?' ))
+n2  =  flutuante ( entrada ( 'Qual foi a segunda nota?' ))
+
+mídia  =  redondo ( flutuante (( n1  +  n2 ) /  2 ), 2 )
+imprimir ( 'Sua média é' , media )
+
+se  mídia  <  7 :
+    imprimir ( 'Reprovado' )
+mais :
+    imprimir ( 'Aprovado' )
