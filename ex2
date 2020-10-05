@@ -1,0 +1,19 @@
+# 2. Elabore um programa para solicitar o nome de uma equipe de futebol, a quantidade de derrotas, empates e vitórias para ela no campeonato. No futebol, cada vitória vale três pontos e cada empate vale um ponto. Calcular e informar: a quantidade de pontos ganhos, a quantidade de pontos perdidos e o percentual de aproveitamento da equipe.
+
+equipe  =  input ( 'Qual é o nome da equipe de futebol?' )
+d  =  float ( input ( 'Quantas derrotas a equipe teve?' ))
+e  =  float ( input ( 'Quantos empates a equipe teve?' ))
+v  =  float ( input ( 'Quantas vitórias a equipe teve?' ))
+
+tot  =  d  +  e  +  v
+psg  =  tot  *  3
+
+pv  =  v  *  3
+pe  =  e  *  2
+
+pg  =  int ( pv  +  pe )
+pp  =  int ( psg  -  pg )
+
+prct  =  int ((( e  +  v ) /  tot ) *  100 )
+
+print ( 'A equipe ganhou' , pg , 'pontos e perdeu' , pp , 'pontos. O percentual de aproveitamento da equipe é de' , prct , '%' )
