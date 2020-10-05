@@ -1,0 +1,11 @@
+# 4. Faça um programa que leia dois números e mostre qual o maior dos dois. O programa deve informar caso sejam iguais.
+
+n1  =  int ( input ( 'Digite um número:' ))
+n2  =  int ( input ( 'Digite outro número:' ))
+
+se  n1  >  n2 :
+    imprimir ( n1 , 'é o maior' )
+elif  n1  ==  n2 :
+    print ( 'Os números são iguais' )
+mais :
+    imprimir ( n2 , 'é o maior' )
