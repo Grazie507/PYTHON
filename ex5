@@ -1,0 +1,21 @@
+# 5. Crie um programa que leia a altura de 10 pessoas. Ao final o programa deve informar o total de pessoas cadastradas, a quantidade de pessoas com altura inferior a 1,60 metros; a quantidade de pessoas com altura entre 1,60 metros e 1,80 metros e a quantidade de pessoas com altura superior a 1,80 metros.
+
+pequeno  =  0
+mediano  =  0
+alto  =  0
+
+
+para  i  no  intervalo ( 0 , 10 ):
+    altura  =  float ( input ( 'Diga uma altura:' ))
+
+    se  altura  <  1,60 :
+        pequeno  + =  1
+    se  altura  > =  1,60  e  altura  <=  1,80 :
+        mediano  + =  1
+    se  altura  >  1,80 :
+        alto  + =  1
+
+
+imprimir ( 'Quantidade de pessoas com altura menor que 1.60:' , pequeno )
+imprimir ( 'Quantidade de pessoas com altura entre 1,60 e 1,80:' , mediano )
+imprimir ( 'Quantidade de pessoas com altura maior que 1.80:' , alto )
